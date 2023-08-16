@@ -11,7 +11,7 @@ Spotify Authentication / Spotify Kimlik Doğrulama NodeJs
 
 # 🌘 Example Response Spotify 🌘
 
-```json
+```js
 {
   provider: 'spotify',
   id: 'qgbw9tmglmdrl6yhktnx1x2bz',
