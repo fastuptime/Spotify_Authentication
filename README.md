@@ -8,6 +8,65 @@ Spotify Authentication / Spotify Kimlik Doğrulama NodeJs
 ![image](https://github.com/fastuptime/Spotify_Authentication/assets/63351166/400b23dd-f010-473d-bd16-47ae18b3f375)
 ![image](https://github.com/fastuptime/Spotify_Authentication/assets/63351166/5866e5d4-e2bc-4421-9c8c-dce533081ee5)
 
+
+# 🌘 Example Response Spotify 🌘
+
+```json
+{
+  provider: 'spotify',
+  id: 'qgbw9tmglmdrl6yhktnx1x2bz',
+  username: 'qgbw9tmglmdrl6yhktnx1x2bz',
+  displayName: 'Can İşte',
+  profileUrl: 'https://open.spotify.com/user/qgbw9tmglmdrl6yhktnx1x2bz',
+  photos: [
+    {
+      value: 'https://i.scdn.co/image/ab67757000003b825e2e36488f75b33d342c42c6'
+    },
+    {
+      value: 'https://i.scdn.co/image/ab6775700000ee855e2e36488f75b33d342c42c6'
+    }
+  ],
+  country: null,
+  followers: 2113,
+  product: null,
+  _raw: '{\n' +
+    '  "display_name" : "Can İşte",\n' +
+    '  "external_urls" : {\n' +
+    '    "spotify" : "https://open.spotify.com/user/qgbw9tmglmdrl6yhktnx1x2bz"\n' +
+    '  },\n' +
+    '  "href" : "https://api.spotify.com/v1/users/qgbw9tmglmdrl6yhktnx1x2bz",\n' +
+    '  "id" : "qgbw9tmglmdrl6yhktnx1x2bz",\n' +
+    '  "images" : [ {\n' +
+    '    "url" : "https://i.scdn.co/image/ab67757000003b825e2e36488f75b33d342c42c6",\n' +
+    '    "height" : 64,\n' +
+    '    "width" : 64\n' +
+    '  }, {\n' +
+    '    "url" : "https://i.scdn.co/image/ab6775700000ee855e2e36488f75b33d342c42c6",\n' +
+    '    "height" : 300,\n' +
+    '    "width" : 300\n' +
+    '  } ],\n' +
+    '  "type" : "user",\n' +
+    '  "uri" : "spotify:user:qgbw9tmglmdrl6yhktnx1x2bz",\n' +
+    '  "followers" : {\n' +
+    '    "href" : null,\n' +
+    '    "total" : 2113\n' +
+    '  }\n' +
+    '}',
+  _json: {
+    display_name: 'Can İşte',
+    external_urls: {
+      spotify: 'https://open.spotify.com/user/qgbw9tmglmdrl6yhktnx1x2bz'
+    },
+    href: 'https://api.spotify.com/v1/users/qgbw9tmglmdrl6yhktnx1x2bz',
+    id: 'qgbw9tmglmdrl6yhktnx1x2bz',
+    images: [ [Object], [Object] ],
+    type: 'user',
+    uri: 'spotify:user:qgbw9tmglmdrl6yhktnx1x2bz',
+    followers: { href: null, total: 2113 }
+  }
+}
+```
+
 # 🛠️ Installation 🛠️
 
 - Download and install [NodeJs](https://nodejs.org/en/download) on your computer.
