@@ -73,7 +73,6 @@ Spotify Authentication / Spotify Kimlik Doğrulama NodeJs
 - Download the project as Zip to your computer and unzip it.
 - Enter the folder you extracted from the zip and open a terminal to the location of that folder, then enter the following commands.
 `npm install`
-- Enter your token in the config.js file. If you don't have a token, create a Bot via BotFather and copy the token.
 - Start the bot by entering the following command in Terminal
 `node .`
 
